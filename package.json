@@ -1,0 +1,23 @@
+{
+  "name": "quotes-app",
+  "version": "1.0.0",
+  "description": "Built With Vanilla Javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ukaypromise/Quotes-App.git"
+  },
+  "author": "Promise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ukaypromise/Quotes-App/issues"
+  },
+  "homepage": "https://github.com/Ukaypromise/Quotes-App#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

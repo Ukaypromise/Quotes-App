@@ -55,8 +55,8 @@ fetchQuotes();
 //   console.log(` ${index} ${data.author} and ${data.text}`);
 // });
 
-// async function fetchQuotes() {
-//   await fetch(url)
+// function fetchQuotes() {
+//   fetch(url)
 //     .then((res) => res.json())
 //     .then((data) => {
 //       let currentItem = 0;

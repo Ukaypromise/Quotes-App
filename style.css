@@ -50,7 +50,7 @@ p {
   color: #2e80b3;
 }
 span {
-  font-size: 20px;
+  font-size: 18px;
 }
 .my-quotes {
   width: 100%;
@@ -71,7 +71,7 @@ span {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 10px 10px;
 }
 input {
   width: 60%;
@@ -86,7 +86,7 @@ input {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: 0.25rem;
-  font-size: 1rem;
+  font-size: 0.75rem;
   padding: 0.75rem 1.25rem;
   outline: none;
 }
@@ -111,7 +111,7 @@ button:hover {
   background: #222;
 }
 .btn-btn {
-  margin: 40px 20px;
+  margin: 20px 15px;
   padding: 0 20px;
   display: flex;
   flex-direction: row;
@@ -119,10 +119,46 @@ button:hover {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .container {
-    width: 100%;
-    display: block;
+    width: 80%;
     margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+  }
+  .intro {
+    /* font-size: 20px;
+    text-align: center; */
+    visibility: hidden;
+    display: none;
+  }
+  .btn-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn-2 {
+    margin-top: 10px;
+  }
+  .btn-3 {
+    margin-top: 10px;
+  }
+  h4 {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    display: inline-block;
+  }
+
+  .my-quotes {
+    padding: 10px inherit;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 25px;
   }
 }
